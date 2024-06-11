@@ -45,6 +45,7 @@ setup(
             "_static/copybutton.js_t",
             "_static/copy-button.svg",
             "_static/check-solid.svg",
+            "_static/clipboard.min.js",
         ]
     },
     classifiers=[
