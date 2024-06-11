@@ -1,15 +1,16 @@
 Source: sphinx-copybutton
 Section: python
 Priority: optional
-Maintainer: Sandro Tosi <morph@debian.org>
-Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Maintainer: Debian Python Team <team+python@tracker.debian.org>,
 Build-Depends: debhelper-compat (= 13),
                dh-python,
+               node-clipboard,
                python3-all,
                python3-ipython <!nodoc>,
                python3-setuptools,
                python3-sphinx <!nodoc>,
-Standards-Version: 4.5.1
+               python3-sphinx-book-theme <!nodoc>,
+Standards-Version: 4.6.2
 Homepage: https://github.com/executablebooks/sphinx-copybutton
 Vcs-Browser: https://salsa.debian.org/python-team/packages/sphinx-copybutton
 Vcs-Git: https://salsa.debian.org/python-team/packages/sphinx-copybutton.git
